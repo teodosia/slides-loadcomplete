@@ -1,0 +1,311 @@
+<!DOCTYPE HTML>
+<html lang="en-US" class="fade">
+<!-- 
+  ^ You can control a few things with the <html> element's classes:
+
+  "fade"      - smooth fade between slides
+  "nonumbers" - remove the slide numbering after the progress bar
+-->
+
+<head>
+  <title>LoadComplete</title>
+  <!-- 
+    ^ Don't forget a good title - they show up as bookmarks and in Google 
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1274, user-scalable=no">
+  <link rel="stylesheet" href="themes/mozilla/styles/style.css">
+  <style type="text/css">
+    /* Add your own styles here */
+  </style>
+</head>
+<body class="list">
+
+  <header class="caption">
+    <h1>LoadComplete</h1>
+    <p class="footer">Teodosia Pop, <a href="mailto:">teodosia.pop@softvision.ro</a></p>
+  </header>
+
+<!-- 
+  The following is a slide, it needs a class of "slide" and it doesn't 
+  hurt to keep the right semantic elements in there, too.
+  IMPORTANT: each slide needs its own unique ID - this will become its
+  URL and this is how this slide system works!
+-->
+
+  <div id="cover" class="slide"><div>
+    <section>
+      <header>
+        <h2>LoadComplete</h2>
+      </header>
+	  <img src="pictures/loadcomplete/LoadComplete_Logo.gif" class="middle"
+           alt="LoadComplete Logo" width="700" height="200">
+      </small>    
+      <small class="byline">
+        Teodosia Pop, SoftVision, QATT, 10/18/2012
+      </small>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="content" class="slide"><div>
+    <section>
+      <header>
+        <h2>Content</h2>
+      </header>
+      <ul>
+        <li>Features Overview</li>
+        <li>System Specifications</li>
+        <li>Pricing Overview</li>
+		<li>Demo</li>
+      </ul> 
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+   <div id="loadTesting" class="slide"><div>
+    <section>
+      <header>
+        <h2>What is Load Testing?</h2>
+      </header>
+      <blockquote>
+        <p>
+          A type of performance testing conducted to evaluate the behavior of a
+		  component or system with increasing load, e.g. numbers of parallel users and/or numbers
+		  of transactions, to determine what load can be handled by the component or system.
+        </p>
+        <p class="quotesource">ISTQB</p>      
+      </blockquote>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+  
+  <div id="loadComplete" class="slide"><div>
+    <section>
+      <header>
+        <h2>What is LoadComplete?</h2>
+      </header>
+      <ul>
+        <li>a performance, stress and load testing tool </li>
+        <li>can record user scenarios</li>
+        <li>can generate load on premise or from the cloud</li>
+		<li>collect server performance data to include in reports</li>
+		<li>supported technologies: AJAX, ASP.NET, Flash and Silverlight</li>
+      </ul> 
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+  
+  <div id="scenariorecord" class="slide"><div>
+    <section>
+      <header>
+        <h2>Scenario Recording and Playback</h2>
+      </header>
+      <ul>
+        <li>record actions in web browser or another web client application</li>
+		<li>different scenarios across virtual user groups to simulate various visitor types<li>
+		<li>configurable workload profiles</li>
+		<li>customizable user connection characteristics</li>
+        <li>all traffic is recorded into scenarios</li>
+      </ul> 
+      <footer class="notes">
+	  4)Whatever volume of traffic you expect in production, you can easily replicate it with LoadComplete.
+	  The customizable profiles for steady and increasing load testing traffic help you test the server endurance 
+	  and identify breaking points. You can also define custom workload shapes to accurately generate your typical anticipated workload, 
+	  such as different traffic levels throughout the day or to test peak load volumes.
+	  5)See how your application adapts to different client and network characteristics, by customizing virtual user properties such as:
+      browser name and version (Internet Explorer 7—10, Mozilla Firefox 3—8, Google Chrome, Safari 5, iPhone Safari)
+      bandwidth (LAN, DSL, 56k modem and so on)
+      </footer>
+    </section>
+  </div></div>
+  
+  <div id="loadmodeling" class="slide"><div>
+    <section>
+      <header>
+        <h2>Load Modeling for Performance Testing</h2>
+      </header>
+      <ul>
+        <li>specify the number of virtual users to be simulated</li>
+		<li>parameterize tests with external data<li>
+		<li>customizable think time</li>
+		<li>customizable browser and connection characteristics</li>
+        <li>flexible workload</li>
+      </ul> 
+      <footer class="notes">
+	  2)to simulate unique users, LoadComplete lets you use different data for each virtual user – logins, passwords, 
+	  form fields and so on. Test data can be fetched from external data sources, such as Excel, CSV, text files and databases. 
+	  You can also use LoadComplete’s built-in data generator to automatically generate data for your tests in a variety of formats.
+	  3)You can use random think time when playing back the tests, so that your virtual users send requests at a different pace and 
+	  spend different time on web pages, similar to human users.
+	  4)you can select the browser type, connection speed and other characteristics for your virtual users. This is especially useful if your 
+	  tested application serves different pages for different browsers and visitor types.
+	  5)lets you perform tests with different workload levels, including steady, ramp-up and user-defined load and quickly switch between various load types.
+	  This allows you to measure how the tested server behaves under estimated production load, peak load, workday load and so on.
+      </footer>
+    </section>
+  </div></div>
+  
+  <div id="cloud" class="slide"><div>
+    <section>
+      <header>
+        <h2>Cloud Load Testing with LoadComplete </h2>
+      </header>
+	  <img src="pictures/loadcomplete/CloudTestingScheme.png" class="right"
+           alt="Perpetual License" width="300" height="300"/>
+      <ul>
+        <li>generate a realistic load of a large number of users from various geographic locations</li>
+		<li>Amazon EC2® integration</li>
+        <li>Amazon machine images specially preconfigured for running load tests</li>
+      </ul> 
+      <footer class="notes">
+	  oadComplete simplifies the set up of the cloud load generation resources. All you need to do get going 
+	  is to provide your Amazon account credentials and select the region/zone and the desired machine type. 
+	  SmartBear provides Amazon machine images that are specially preconfigured for running load tests with 
+	  LoadComplete. The rest is handled automatically.
+      </footer>
+    </section>
+  </div></div>
+  
+  <div id="monitor" class="slide"><div>
+    <section>
+      <header>
+        <h2>Server Performance Monitoring</h2>
+      </header>
+	  <img src="pictures/loadcomplete/real-time-server-monitoring-small.png" class="right"
+           alt="Perpetual License" width="300" height="300"/>
+      <ul>
+        <li>real-time server monitoring</li>
+		<li>Client-side metrics: response time, page load time, time to first byte (TTFB), time to last byte (TTLF)</li>
+        <li>Windows, Apache and Unix server-side performance counters: CPU and memory usage, disk throughput, network throughput</li>
+      </ul> 
+      <footer class="notes">
+	  1)LoadComplete includes an integrated monitoring module that lets you observe the behavior of your application 
+	  and server resources in real time, allowing you to quickly identify performance issues and pinpoint their root-cause.
+	  2)Choose from a wide range of client-side and server-side metrics to analyze
+      </footer>
+    </section>
+  </div></div>
+  
+  <div id="sysspecs" class="slide"><div>
+    <section>
+      <header>
+        <h2>System Specifications</h2>
+      </header>
+      <ul>
+        <li>Supported Operating Systems: 
+          <ul>
+            <li>Windows 7 (both 32-bit and 64-bit editions)</li>
+            <li>Windows Vista (both 32-bit and 64-bit editions)</li>
+            <li>Windows Server 2008 (both 32-bit and 64-bit editions)</li>
+			<li>Windows Server 2008 R2</li>
+            <li>Windows XP Service Pack 3 (both 32-bit and 64-bit editions)</li>
+			<li>Windows Server 2003 (both 32-bit and 64-bit editions)</li>
+          </ul>  
+        </li>
+      </ul> 
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="requirements" class="slide"><div>
+    <section>
+      <header>
+        <h2>System Specifications:</h2>
+      </header>
+      <ul>
+        <li>Installation Requirements:</li>
+		  <ul>
+			 <li>Intel Pentium 4  2 GHz or higher</li>
+			 <li>1GB of RAM</li>
+			 <li>700 MB hard disk space + 200 MB of free space</li>
+			 <li>IE 7 or later</li>
+			 <li>Adobe Flash Player for viewing</li>
+		  </ul>
+      </ul> 
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="price" class="slide"><div>
+    <section>
+      <header>
+        <h2>Pricing Overview</h2>
+      </header>
+	  <img src="pictures/loadcomplete/perp_license.bmp" class="left"
+           alt="Perpetual License" width="300" height="400"/>
+	  <img src="pictures/loadcomplete/subscrip.bmp" class="right shadow"
+           alt="Subscription License" width="300" height="400"/>
+    <footer class="notes">
+	 A Node-Locked license allows using a single instance of LoadComplete on a particular computer.
+	 Once activated, the license becomes directly bound to that computer. A Floating User license allows 
+	 LoadComplete to be used by a group of users. You can install LoadComplete on any number of computers 
+	 in your network and use LoadComplete on multiple computers simultaneously. The maximum number of 
+	 concurrent LoadComplete instances is designated by the license. For example, a Floating User
+	 license for three LoadComplete instances allows using the maximum of three LoadComplete instances concurrently.
+	 LoadComplete licenses have different effective periods:
+     A Subscription license is time-limited and allows using LoadComplete throughout the subscription period specified 
+	 in the contract (for example, 1 year). Support services and maintenance (upgrades and new versions) are provided for 
+	 the same period. When the subscription expires, you can renew it for an additional subscription period to continue using LoadComplete.
+     A Perpetual license has no expiration date, which means that you can use LoadComplete forever. 
+	 It includes 1 year of support and maintenance (upgrades and new releases). You can renew maintenance for an additional 
+	 year of support services and free software updates.
+    </footer>
+    </section>
+  </div></div>
+  
+   <div id="licenseexplained" class="slide"><div>
+    <section>
+      <header>
+        <h2>Licensing Models</h2>
+      </header>
+	  <ul>
+		  <ul>
+			 <li>Node-Locked License</li>
+				<ul>
+					<li>allows using a single instance of LoadComplete on a particular computer</li>
+					<li>directly bound to that computer</li>
+				</ul>  
+			 <li>Floating User License</li>
+				<ul>
+					<li>can be used by a group of users</li>
+					<li>installed on any number of computers in the network</li>
+					<li>used on multiple computers simultaneously</li>
+				</ul> 
+		  </ul>
+      </ul>  
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+  
+  <div id="thanks" class="slide"><div>
+  <section>
+    <header>
+      <h2>Thank you!</h2>
+
+    </header>
+      <ul>
+		<li>teodosia.pop@softvision.ro</li>
+        <li>http://github.com/teodosia/slides-loadcomplete</li>
+        <li>http://smartbear.com/products/qa-tools/load-testing</li>
+      </ul>
+  <footer class="notes">
+  </footer>
+  </section>
+</div></div>
+  
+  <div class="progress"><div></div></div>
+  <!-- 
+    ^ don't like a progress bar? just delete this DIV
+  -->
+  <script src="scripts/script.js"></script>
+  <!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+</body>
+</html>
